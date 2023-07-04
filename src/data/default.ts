@@ -25,7 +25,7 @@ const createKinkCategory = (name: string, subcategories: string[], kinks: string
 export const getDefaultKinkContent = (defaultRating: string): InKinkCategory[] => [
     createKinkCategory("Body types", ["General"], ["Slim", "Average", "Curvy", "Athletic", "Very muscular", "Hairy"], defaultRating),
     createKinkCategory("Clothing", ["Self", "Partner"], ["Clothed sex", "Lingerie", "Stockings", "Heels", "Leather", "Latex", "Uniform / costume", "Cross-dressing"], defaultRating),
-    createKinkCategory("Groupings", ["Partners(s)"], ["Man", "Woman", "Enby", "One partner", "Two partners", "Three partners", "More than three partners"], defaultRating),
+    createKinkCategory("Partners", ["General"], ["One partner", "Two partners", "Three partners", "More than three partners"], defaultRating),
     createKinkCategory("Actions", ["Giving", "Receiving"], ["Light kisses", "Deep kisses", "Hickey", "Biting", "Suckling", "Oral", "Deep throat", "Fingers in mouth", "Gentle caress", "Massage", "Tight grip", "Handjob / fingering", "Footjob", "Clothing job"], defaultRating),
     createKinkCategory("Ass play", ["Giving", "Receiving"], ["Anal toys", "Penetration", "Oral", "Fisting"], defaultRating),
     createKinkCategory("Restrictive", ["Self", "Partner"], ["Blindfold", "Gag", "Collar", "Leash", "Rope", "Handcuffs", "Ankle cuffs", "Chastity", "Heavily restrained overall"], defaultRating),
@@ -35,5 +35,5 @@ export const getDefaultKinkContent = (defaultRating: string): InKinkCategory[] =
     createKinkCategory("Communication", ["Giving", "Receiving"], ["Praise", "Worship", "Degradation", "Objectification"], defaultRating),
     createKinkCategory("Stimulation", ["Self", "Partner"], ["Cold", "Heat", "Tickling", "Electricity"], defaultRating),
     createKinkCategory("Scenario", ["Self", "Partner"], ["Orgy", "Public exposure", "Hidden in public", "Impregnation", "Pregnancy", "Cuckold / Cuckquean", "Consensual non-consent"], defaultRating),
-    createKinkCategory("Pain", ["Giving", "Receiving"], ["Pinching with hands", "Clamps", "Caning", "Flogging", "Spanking", "Hot Wax", "Scratching", "Cutting"], defaultRating),
+    createKinkCategory("Pain", ["Giving", "Receiving"], ["Pinching with hands", "Clamps", "Spanking", "Whipping" "Hot Wax", "Scratching", "Cutting"], defaultRating),
 ]
