@@ -8,6 +8,8 @@
         Kinklist was created by Goctionni to help people easily and quickly communicate their
         preferences. It is open source under the MIT license. You are thus free modify source
         code in any way you wish. Credit is appreciated but not required.
+        This version is a customized application tailored for me, jarpeeggee. Below is the
+        github link for the original.
       </p>
       <ul>
         <li><a href="https://github.com/Goctionni/kinklist-v2" target="_blank">Github</a></li>
